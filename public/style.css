@@ -1,0 +1,58 @@
+.message {
+    border: 1.5px solid #333; /* Dark border color */
+    margin: 20px; /* Spacing around each message */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Space inside the container */
+    background-color: #f9f9f9; /* Light background for the message */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: Arial, sans-serif; /* Clean font */
+    color: #333; /* Text color */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.message:hover {
+    background-color: #f1f1f1; /* Slightly darker background on hover */
+}
+
+form {
+    background-color: #fff;
+    padding: 20px; 
+    width: 300px; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+/* Label styling */
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333; /* Dark text for labels */
+}
+
+/* Input field styling */
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 14px;
+    width: 100%; /* Full width for inputs */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+/* Button styling */
+button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

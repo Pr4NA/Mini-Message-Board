@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <% messages.forEach((message) => { %>
+        <div class="message">
+            <div class="text">
+                Message: <%= message.text %>
+            </div>
+            <div class="user">
+                By: <%= message.user %>
+            </div>
+            <div class="date">
+                Date: <%= message.added %>
+            </div>
+        </div>
+      <% }); %>
+  </body>
+</html>
